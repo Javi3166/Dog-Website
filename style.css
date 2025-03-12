@@ -24,7 +24,6 @@ p {
     align-items: center;
     justify-content: space-between;
     min-height: 15rem;
-    margin-top: 100px;
     font-family: 'Lato', serif;
 }
 
@@ -43,8 +42,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
     width: 100%;
     background-color: aquamarine;
 }
@@ -90,6 +87,9 @@ p {
 
 .button {
     text-decoration: none;
+}
+
+.button a:hover {
     padding: 15px 30px;
     color: yellow;
     border: black solid;
