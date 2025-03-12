@@ -7,27 +7,90 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav_bar">
-        <img src="Dog_Header_Image.png" alt="">
-        <ul>
-            <li>About</li>
-            <li>Breed 1</li>
-            <li>Breed 2</li>
-            <li>Breed 3</li>
-        </ul>
-    </div>
+    <header class="header">
+        <div class="wrapper">
+            <img class="dog_logo" src="Dog_Header_Image.png" alt="">
+            <h1 id="website-title">Awesome Dogs</h1>
+            <nav class="nav_bar">
+                <ul>
+                    <li>
+                        <a href="#about_section">About</a>
+                    </li>
+                    <li>
+                        <a href="#tamaskan">Tamaskan</a>
+                    </li>
+                    <li>
+                        <a href="#pomeranian">Pomeranian</a>
+                    </li>
+                    <li>
+                        <a href="#anatolian">Anatolian Shepherd</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
-    <div class="about_section">
+    <main id="main_body" class="content wrapper">
+        <div id="about_section" class="about_section">
+            <h1 class="section-header">About This Page</h1>
+            <p>Discover the fascinating world of dog breeds with our in-depth 
+                guide designed for dog lovers of all kinds. From the wolf-like 
+                elegance of the Tamaskan to the bold personality of the tiny 
+                Pomeranian, and the loyal, protective nature of the Anatolian 
+                Shepherd, our site offers detailed breed profiles to help you 
+                understand each dog’s unique traits, temperament, and care needs. 
+                Whether you’re searching for the perfect companion, learning 
+                about different breeds, or simply celebrating your love for dogs, 
+                you’ll find everything you need to know right here.</p>
+        </div>
 
-    </div>
-
-    <div class="dog_breed">
-        <h1>Tamaskan</h1>
-        <h3>Details:</h3>
-        <p></p>
-        <img src="tamaskan.jpg" alt="">
-    </div>
-    <div class="dog_breed"></div>
-    <div class="dog_breed"></div>
+        <a class="button" href="https://www.akc.org/">American Kennel Club</a>
+    
+        <h1 id="tamaskan" class="section-header">Tamaskan</h1>
+        <div class="dog_breed tamaskan">
+            <div class="details_card">
+                <h3>Details: </h3>
+                <p>The Tamaskan is a rare, wolf-like dog breed developed 
+                    to resemble a wolf while maintaining a gentle, family-friendly 
+                    temperament. Intelligent, loyal, and highly energetic, Tamaskans 
+                    excel in obedience, agility, and outdoor activities. They 
+                    require plenty of exercise and mental stimulation, making them 
+                    ideal for active owners. Despite their wild appearance, they are 
+                    affectionate, social, and great with children and other pets.</p>
+            </div>
+            <img class="dog_image" src="tamaskan.jpg" alt="">
+        </div>
+        
+        <h1 id="pomeranian" class="section-header">Pomeranian</h1>
+        <div class="dog_breed pomeranian">
+            <div class="details_card">
+                <h3>Details: </h3>
+                <p>The Pomeranian is a small, fluffy toy breed known 
+                    for its bold personality and fox-like face. Despite their 
+                    tiny size, they are confident, lively, and full of charm. 
+                    Pomeranians are intelligent, alert, and make great companions, 
+                    though they can be vocal and protective. They thrive on attention
+                    and are well-suited for apartment living with regular play and 
+                    grooming.</p>
+            </div>
+            <img class="dog_image" src="pomeranian.jpg" alt="">
+        </div>
+        
+        <h1 id="anatolian" class="section-header">Anatolian Shepherd</h1>
+        <div class="dog_breed anatolian">
+            <div class="details_card">
+                <h3>Details: </h3>
+                <p>The Anatolian Shepherd is a powerful and independent 
+                    livestock guardian breed known for its loyalty, intelligence,
+                    and protective nature. Originally from Turkey, this large, 
+                    rugged dog is highly devoted and excels at guarding property 
+                    or animals. They are calm, confident, and require consistent 
+                    training and space to roam, making them best suited for 
+                    experienced, active owners in rural settings.</p>
+            </div>
+            <img class="dog_image" src="anatolian.jpg" alt="">
+        </div>
+    </main>
+    
 </body>
 </html>

@@ -1,3 +1,122 @@
-h1 {
-    border: black;
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+p {
+    width: 300px;
+    white-space: normal;
+}
+
+.dog_logo {
+    width: 100px;
+    height: auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: auto;
+    pad: 0 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 15rem;
+    margin-top: 100px;
+    font-family: 'Lato', serif;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.nav_bar a:hover{
+    background: black;
+    color: white;
+}
+
+.nav_bar ul li {
+    margin: 0 12px;
+    font-size: large;
+}
+
+.dog_image {
+    width: auto;
+    height: 240px;
+    padding-left: 20px;
+}
+
+.dog_breed {
+    display: flex;
+}
+
+.section-header {
+    font-family: 'Sofia', serif;
+}
+
+.about_section {
+    width: 600px;
+    text-align: center;
+}
+
+.about_section p {
+    width: 600px;
+}
+
+#main_body {
+    width: 720px;
+    border: aquamarine solid;
+    background-color: aquamarine;
+}
+
+.button {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: yellow;
+    border: black solid;
+    border-radius: 15px;
+    background-color: black;
+}
+
+#website-title {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+@media (max-width: 390px) {
+    .wrapper {
+        max-width: 390px;
+    }
+    .dog_breed {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_section{
+        width: 390px;
+    }
+    .about_section p {
+        width: 390px;
+    }
+    body {
+        background-color: aquamarine;
+    }
 }
